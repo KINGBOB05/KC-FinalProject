@@ -49,3 +49,25 @@
         </div> */
 
 /* <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> */
+
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 5;
+    justify-content: center;
+  }
+  
+  .card{
+    height: 270px;
+    width: 400px;
+    background-color: #9B97B2;
+    margin-left: 100px;
+  }
+  
+  .card-image{
+    background-color: #ffb703;
+    width: 400px;
+    height: 100px;
+  }
+  
+  .card1

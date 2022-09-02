@@ -1,3 +1,15 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./bck3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
 @import url("https:fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
 
 *{
@@ -6,6 +18,7 @@
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
 }
+
 
 nav{
   display: flex;
@@ -170,53 +183,4 @@ input[type="checkbox"]{
     transform: translateX(0);
     opacity: 1;
   }
-section{
-  background: url(./fff.jpg);
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-position: center;
-  background-size: cover;
-  top: 0;
-  z-index: -1;
-  filter: brightness(30%);
-}
-}
-
-.container{
-  flex-wrap: wrap;
-  display: flex;
-  margin: 5;
-  justify-content: center;
-  align-items: center;
-}
-
-.card{
-  height: 400px;
-  width: 300px;
-  background-color: #9B97B2;
-  margin: 70px;
-  text-align: center;
-  border-radius: 20px;
-}
-
-.card:hover{
-  opacity: 0.5;
-  transform: scale(1.05);
-}
-
-.card-image{
-  background-color: chartreuse;
-  background-size: cover;
-  height: 400px;
-  margin-bottom: 15px;
-  border-radius: 20px;
-}
-
-.rl-image{
-  background-image: url("./rl.jpg");
-}
-
-.ow-image{
-  background-image: url("./ow.jpg");
 }
